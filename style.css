@@ -1,0 +1,24 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color:blue;
+  font-family:helvetica;
+  background-color: pink;
+  border: 5px solid red;
+  padding: 50px;
+}
+p {
+  color:pcnk;
+}
+h2 {
+  color:purple;
+}
+
+img {
+  border: 5px solid fuchsia;
+  width: 50%;
+  height: 50%;
+  margin-left: 100px;
+}
