@@ -10,9 +10,11 @@ h1 {
   padding: 50px;
 }
 p {
-  color:pcnk;
+  font-family:helvetica;
+  color:pink;
 }
 h2 {
+  font-family:helvetica;
   color:purple;
 }
 
