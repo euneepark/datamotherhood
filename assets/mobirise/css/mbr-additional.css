@@ -710,35 +710,26 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-s48MCQYojq {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.cid-srfDfY12VA {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   background-image: url("../../../assets/images/background7.jpg");
 }
-.cid-s48MCQYojq .mbr-section-title {
-  text-align: center;
-}
-.cid-s48MCQYojq .mbr-text,
-.cid-s48MCQYojq .mbr-section-btn {
-  color: #232323;
-  text-align: center;
+.cid-srfDfY12VA .row {
+  align-items: center;
 }
 @media (max-width: 991px) {
-  .cid-s48MCQYojq .mbr-section-title,
-  .cid-s48MCQYojq .mbr-section-btn,
-  .cid-s48MCQYojq .mbr-text {
-    text-align: center;
+  .cid-srfDfY12VA .image-wrapper {
+    padding: 1rem;
   }
 }
-.cid-s48udlf8KU {
-  padding-top: 5rem;
-  padding-bottom: 2rem;
-  background-color: #ffffff;
+@media (min-width: 992px) {
+  .cid-srfDfY12VA .text-wrapper {
+    padding: 0 2rem;
+  }
 }
-.cid-s48udlf8KU .mbr-section-title {
-  text-align: left;
-}
-.cid-s48udlf8KU .mbr-section-subtitle {
+.cid-srfDfY12VA .mbr-text,
+.cid-srfDfY12VA .mbr-section-btn {
   text-align: left;
 }
 .cid-s48upRUlSD {
@@ -1140,7 +1131,7 @@ a {
     margin-bottom: 2rem;
   }
 }
-.cid-sqRCqn70dF {
+.cid-sr3jDyXDfV {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #232323;
@@ -1556,7 +1547,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-.cid-sqRCqn70dF {
+.cid-sr3jDyXDfV {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #232323;
@@ -2059,17 +2050,106 @@ a {
 .cid-sr1V5io7T8 H5 {
   color: #ffffff;
 }
-.cid-sr272C9Oep {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
 .cid-sr25rADn9O {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
 }
+.cid-sr3mXJKqWf {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-sr3mXJKqWf .timeline-element {
+  position: relative;
+}
+.cid-sr3mXJKqWf .timelines-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cid-sr3mXJKqWf .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-sr3mXJKqWf .mbr-section-title,
+.cid-sr3mXJKqWf .mbr-section-subtitle,
+.cid-sr3mXJKqWf .timeline-date {
+  text-align: center;
+}
+.cid-sr3mXJKqWf .iconBackground {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #6592e6;
+  margin-left: -9px;
+}
+@media (max-width: 767px) {
+  .cid-sr3mXJKqWf .iconBackground {
+    left: 15px;
+    top: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sr3mXJKqWf .iconBackground {
+    top: 70px;
+    left: 50%;
+  }
+}
+.cid-sr3mXJKqWf .row:after {
+  content: "";
+  position: absolute;
+  background-color: #6592e6;
+  width: 2px;
+}
+@media (max-width: 767px) {
+  .cid-sr3mXJKqWf .row:after {
+    height: calc(100% + 30px);
+    top: 50px;
+    left: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .cid-sr3mXJKqWf .row:after {
+    height: calc(100% - 20px);
+    top: 90px;
+    left: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .cid-sr3mXJKqWf .timeline-date-wrapper,
+  .cid-sr3mXJKqWf .timeline-text-wrapper,
+  .cid-sr3mXJKqWf .image-wrapper {
+    padding: 0rem;
+    padding-left: 2rem;
+  }
+  .cid-sr3mXJKqWf .mbr-timeline-date {
+    text-align: center !important;
+  }
+  .cid-sr3mXJKqWf .mbr-timeline-title {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-sr3mXJKqWf .timeline-date-wrapper,
+  .cid-sr3mXJKqWf .timeline-text-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-sr3mXJKqWf .timeline-date-wrapper,
+  .cid-sr3mXJKqWf .timeline-text-wrapper,
+  .cid-sr3mXJKqWf .image-wrapper {
+    padding: 2rem;
+  }
+}
 .cid-sr28uf25x2 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-sr272C9Oep {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #ffffff;
@@ -2108,7 +2188,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-.cid-sqRCqn70dF {
+.cid-sr3jDyXDfV {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #232323;
@@ -2519,7 +2599,7 @@ a {
   align-items: center;
   justify-content: center;
 }
-.cid-sqRCqn70dF {
+.cid-sr3jDyXDfV {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #232323;
